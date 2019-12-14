@@ -1,0 +1,37 @@
+\documentclass[journal]{IEEEtran}
+
+\ifCLASSINFOpdf
+
+\else
+
+\fi
+
+\hyphenation{op-tical net-works semi-conduc-tor}
+
+\begin{document}
+
+\title{CPSC 350 Assignment 6 Report}
+
+\author{Ethan~Dang}
+
+\markboth{CPSC 350}
+{Shell \MakeLowercase{\textit{et al.}}: Bare Demo of IEEEtran.cls for IEEE Journals}
+
+\maketitle
+
+\begin{abstract}
+In this report, I discuss my experience working on Assignment 6, specifically my opinion on the performance of each sorting algorithm and the trade offs of each. 
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+\section{Sorting Algorithms}
+\IEEEPARstart{T}{o} begin, the differences in time were much more drastic than I had originally expected. When attempting to sort an array of size 100000, I was shocked at the fact that it took an average of 48 seconds each time to completely sort and array using bubble sort, with all the computing power we have today, it still shocks me something so simple can still take very long just due to the sorting algorithm used. I also found that though the Big-Oh time complexity of selection and insertion sort are much different, it was very clear that due to the way insertion sort works, it is much more efficient with partially sorted data and in general, as with a random array of 100000 doubles, selection sort took 13 seconds where as insertion took less than 1. This report was written in \LaTeX\ 
+
+
+\section{Empirical Analysis}
+Empirical Analysis is flawed in the sense that the times it would take a sorting algorithm to complete on one computer could be completely different with another computer. This is due to the fact that the processing power of each computer is different, therefore causing different results when experimenting with different computers.
+
+\end{document}
+
+
